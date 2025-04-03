@@ -2,7 +2,7 @@
 import logging
 from pathlib import Path
 
-# Logger Setuo
+# Logger Setuop
 def setup_logger(model_name:str , log_dir:str="logs" , log_file : str="training.log"):
     """
     Sets up a logger to save training information
